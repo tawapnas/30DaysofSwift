@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     
     // 这样定义可以在不用timer时回收内存
     var timer: Timer? = Timer()
-    var isPlaying = false
+    var isPlaying = true
     
     // 知识点：存储属性和计算属性
     override var preferredStatusBarStyle: UIStatusBarStyle {
